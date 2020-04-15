@@ -8,47 +8,89 @@
 }
   
 html {
-    overflow: hidden;
-  }
-  body {
-    font-size: 100% !important;
-    font-family:"SansHead-Regular" !important;
-    width: 100%;
-    height: 100%;
-    background-color: #000000 !important;
-    position: absolute;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling:touch;
-    // background-image: url('../videos/Billie Eilish - bad guy.mp4');
-  }
-  .txt-primary {
-    color: $color-primary !important;
-  }
-  
-  .txt-secundary {
-    color: $color-secundary !important;
-  }
-  
-  .txt-ligth {
-    color: $color-ligth;
-  }
-  .thriller {
-    width:100%;
-    height:auto;
-  }
-  .home-main {
-      width:100%;
-      height: 100%;
-      background-color: #000000;
-  }
-  
- 
-  .group-image {
-      width:100%;
-      height: auto;
-      max-width: 171px;
-      max-height: 49px;
-  }
+  overflow: hidden;
+}
+body {
+  font-size: 100% !important;
+  width: 100%;
+  height: 100vh;
+  background-color: '#FFF';
+  position: absolute;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling:touch;
+}
+.welcome {
+  align-items: center;
+  display: flex;
+  background-color: #333333 !important;
+  width: 100%;
+  height: 880px;
+}
+.history {
+  width: 100%;
+  height: 880px;
+  background-color: #f9f7f2;
+  align-items: center;
+  display: flex;
+}
+.offers {
+  width: 95%;
+  height: 880px;
+  background-color: #f9f7f2;
+  align-items: center;
+  display: flex;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin-left: 5%;
+}
+.forLunch {
+  width: 100%;
+  height: 880px;
+  background-color: #f9f7f2;
+  align-items: center;
+  display: flex;
+}
+.upcoming {
+  align-items: center;
+  display: flex;
+  background-color: #333333 !important;
+  width: 100%;
+  height: 880px;
+}
+.ourInterior {
+  width: 100%;
+  height: 880px;
+  background-color: #f9f7f2;
+  align-items: center;
+  display: flex;
+}
+.peopleSay {
+  width: 100%;
+  height: 880px;
+  background-color: #f9f7f2;
+}
+.aboutUs {
+  align-items: center;
+  display: flex;
+  background-color: #333333 !important;
+  width: 100%;
+  height: 880px;
+}
+.ourChef {
+  width: 100%;
+  height: 880px;
+  background-color: #f9f7f2;
+  align-items: center;
+  display: flex;
+}
+.reserveATable {
+  width: 100%;
+  height: 880px;
+  background-color: #f9f7f2;
+  align-items: center;
+  display: flex;
+}
   // hamburger menu style
   .bm-burger-button {
     // position: sticky;
