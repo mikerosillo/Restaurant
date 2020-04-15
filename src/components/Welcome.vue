@@ -11,8 +11,6 @@
                     <b-button style="width: 170px;height: 48px;border-radius: 3px;background-color: #6327eb;font-size:18px;">
                         Book a table
                     </b-button>
-                    <!-- <b-button variant="danger">Button</b-button>
-                    <b-button variant="success">Button</b-button> -->
                     <b-button style="margin-left:20px;width: 170px;height: 48px;border-radius: 3px;background-color: transparent;font-size:18px;">See menu</b-button>
                     </div>
                 </h1>
@@ -34,20 +32,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>
