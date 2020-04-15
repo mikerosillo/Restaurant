@@ -1,10 +1,10 @@
 <template>
-<div class="history">
+<div class="offersBackGround">
   <div class="offers">
       <div class="container">
           <div class="row">
-                <div class="col-6" style="display: flex;justify-content: flex-start; align-items:center">
-                    <h1 style="color: #000000;font-family: PTSerif;font-size: 72px;font-weight: 700;line-height: 80px;"><p class="" style="color: #333333;font-family: Roboto;font-size: 24px;font-weight: 300;line-height: 32px;">Check out our</p>{{ msg }}
+                <div class="col-12 col-md-6" style="display: flex;justify-content: flex-start; align-items:center">
+                    <h1 class="titles" style=""><p class="marginTop" style="color: #333333;font-family: Roboto;font-size: 24px;font-weight: 300;line-height: 32px;">Check out our</p>{{ msg }}
                         <p class="d-flex mt-5" style="margin-bottom:0px;color: #333333;font-family: Roboto;font-size: 24px;font-weight: 300;line-height: 32px;">
                             Alaskan Fish & Chips 
                             <span class="d-flex ml-auto">$14.00</span>
@@ -27,8 +27,8 @@
                         <p style="padding-top:0px;color: rgba(51, 51, 51, 0.5);font-family: Roboto;font-size: 14px;font-weight: 400;line-height: 24px;">Candied salmon, basil potato puree, baby kale marsala</p>
                     </h1>
                 </div>
-                <div class="col-6" style="">
-                    <img src="../assets/images/eggAndForkPlate.png" style="width: 100%;height: 560px;border-radius: 3px;background-color: #bba285;" alt="picture">
+                <div class="col-12 col-md-6" style="">
+                    <img class="imgOffers" src="../assets/images/eggAndForkPlate.png" style="" alt="picture">
                 </div>
           </div>
       </div>

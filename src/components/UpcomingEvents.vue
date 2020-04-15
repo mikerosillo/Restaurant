@@ -2,15 +2,15 @@
   <div class="upcoming">
       <div class="container">
           <div class="row" style="text-align:center">
-              <div style="color: #ffffff;font-family: Roboto;font-size: 24px;font-weight: 300;line-height: 32px;" class="col-12">Party with us!</div>
-              <div class="col-12" style="color: #ffffff;font-family:PTSerif;font-size: 56px;font-weight: 700;line-height: 64px;">Upcoming events</div>
+              <div style="color: #ffffff;font-family: Roboto;font-size: 24px;font-weight: 300;line-height: 32px;" class="marginTop col-12">Party with us!</div>
+              <div class="titles text-white col-12" style="">Upcoming events</div>
           </div>
           <div class="row mt-5">
-              <div class="col-6" style="padding-right:0px">
+              <div class="col-12 col-md-6" style="margin-bottom: 0px">
                   <img src="../assets/images/beerGirl.png" style="width: 100%;height: 480px;" alt="picture">
               </div>
-              <div class="col-6" style="padding-left:0px;width: 100%;height: 480px;background-color:#FFF">
-                  <div class="container" style="" alt="picture">
+              <div class="col-12 col-md-6" style="width: 100%;height: 480px;margin-bottom:0px; display: flex">
+                  <div class="container" style="background-color:#FFF" alt="picture">
                         <div class="mt-5 ml-5">
                             <p class="" style="color: #333333;font-family: Roboto;font-size: 20px;font-weight: 300;line-height: 32px;">
                                 Upcoming</p>

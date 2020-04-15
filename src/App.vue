@@ -2,6 +2,7 @@
   <div id="app">
     <div id="nav">
       <div class="container">
+          <div v-if="window.width > 768">
         <div class="row">
           <div class="col-3" 
             style="color: #ffffff;font-family: PTSerif;font-size: 40px;font-weight: 700;line-height: 48px;text-transform: uppercase; text-align:start"
@@ -16,6 +17,8 @@
             <router-link to="/about">News</router-link>
             <router-link to="/">Contact</router-link>
           </div>
+          <!-- </div> -->
+          
           <div class="col-3" style="text-align:end">
             <social-sharing url="https://vuejs.org/" inline-template>
               <div style=" color:#FFF">
@@ -32,6 +35,27 @@
             </social-sharing>  
           </div>
         </div>
+        
+        </div>
+        <div v-else>
+          <div class="row">
+            <div class="col-3 mb-5" 
+              style="color: #ffffff;font-family: PTSerif;font-size: 40px;font-weight: 700;line-height: 48px;text-transform: uppercase; text-align:start"
+            >
+              REST
+            </div>
+            <div class="col-9 mb-5">
+              <Slide 
+              :isOpen="!open"
+              right
+              width="300"
+              >
+              </Slide>
+            </div>
+          </div>
+            
+            <!-- @openMenu="setOpenState()" -->
+          </div>
       </div>
     </div>
     <router-view/>
@@ -80,6 +104,35 @@
   </div>
 </template>
 
+<script>
+import { Slide } from 'vue-burger-menu' 
+
+export default {
+  components: {
+        Slide 
+    },
+    data() {
+    return {
+      window: {
+          width: 0,
+      },
+      open: true,
+    }
+  },
+  created() {
+    window.addEventListener('resize', this.handleResize)
+    this.handleResize()
+  },
+  destroyed() {
+    window.removeEventListener('resize', this.handleResize)
+  },
+  methods: {
+    handleResize() {
+      this.window.width = window.innerWidth;
+    },
+  }
+}
+</script>
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
