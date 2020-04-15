@@ -1,13 +1,13 @@
 <template>
   <div class="ourChef">
       <div class="container">
-          <div class="row">
-              <div class="col-6" style="">
-                <img src="../assets/images/chef.png" style="width: 100%;height: 560px;border-radius: 3px;background-color: #bba285;" alt="picture">
+          <div class="row marginTop">
+              <div class="imgMiddle col-12 col-md-6" style="">
+                <img class="imgChef" src="../assets/images/chef.png" style="vertical-align: middle;" alt="picture">
               </div>
-              <div class="col-6" style="display: flex;justify-content: flex-start; align-items:center">
-                <h1 style="color: #000000;font-family: PTSerif;font-size: 72px;font-weight: 700;line-height: 80px;"><p class="" style="color: #333333;font-family: Roboto;font-size: 24px;font-weight: 300;line-height: 32px;">The word from</p>{{ msg }}
-                    <p class="" style="color: #333333;font-family: Roboto;font-size: 24px;font-weight: 300;line-height: 32px;">
+              <div class="col-12 col-md-6" style="display: flex;justify-content: flex-start; align-items:center">
+                <h1 class="titles marginTop" style=""><p class="" style="color: #333333;font-family: Roboto;font-size: 24px;font-weight: 300;line-height: 32px;">The word from</p>{{ msg }}
+                    <p class="description" style="">
                         "A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets. It always does one good." 
                     </p>
                     <p class="mt-5 mb-0" style="color: #333333;font-family:PTSerif;font-size: 24px;font-weight: 700;line-height: 32px;">
